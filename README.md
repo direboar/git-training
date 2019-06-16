@@ -11,7 +11,7 @@ https://gist.github.com/mignonstyle/083c9e1651d7734f84c99b8cf49d57fa
 |----|---- |
 | git init | gitのローカルリポジトリを作成する |
 | git status | ワーキングツリーの状態を参照する |
-| git add | ファイルをインデックスに追加する |
+| git add | ファイルをインデックスに追加する（コンフリクト解決後も修正後ファイルをgit addする） |
 | git commit | インデックスに追加したファイルをリポジトリにコミットする。 |
 | git remote add origin &lt;url&gt; | 指定したリポジトリをoriginという名前で登録する |
 | git push &lt;プッシュ先のリポジトリ名&gt; &lt;プッシュするブランチ名&gt; |指定したリポジトリをoriginという名前で登録する |
@@ -20,3 +20,4 @@ https://gist.github.com/mignonstyle/083c9e1651d7734f84c99b8cf49d57fa
 | git pull -u &lt;プル先のリポジトリ名&gt; &lt;プルするブランチ名&gt; |次回以降のコミットで、リポジトリ名とブランチ名を省略できるようにする |
 
 pull リモートリポジトリの内容を取得する
+commit インデックスの状態を記録する
