@@ -14,5 +14,6 @@ https://gist.github.com/mignonstyle/083c9e1651d7734f84c99b8cf49d57fa
 | git add | ファイルをインデックスに追加する |
 | git commit | インデックスに追加したファイルをリポジトリにコミットする。 |
 | git remote add origin &lt;url&gt; | 指定したリポジトリをoriginという名前で登録する |
-| git push  &lt;プッシュ先のリポジトリ名&gt; &lt;プッシュするブランチ名&gt; |指定したリポジトリをoriginという名前で登録する |
+| git push &lt;プッシュ先のリポジトリ名&gt; &lt;プッシュするブランチ名&gt; |指定したリポジトリをoriginという名前で登録する |
 | git push -u &lt;プッシュ先のリポジトリ名&gt; &lt;プッシュするブランチ名&gt; |次回以降のコミットで、リポジトリ名とブランチ名を省略できるようにする |
+| git clone &lt;url&gt; &lt;ディレクトリ&gt; |指定したリポジトリを、指定したディレクトリにクローンする|
